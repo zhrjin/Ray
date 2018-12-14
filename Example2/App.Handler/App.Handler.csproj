@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ray.Core\Ray.Core.csproj" />
+    <ProjectReference Include="..\..\Ray.RabbitMQ\Ray.RabbitMQ.csproj" />
+    <ProjectReference Include="..\App.IGrain\App.IGrain.csproj" />
+  </ItemGroup>
+
+</Project>
